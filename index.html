@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the-iustitia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+</head>
+<body>
+
+    <div class="noise"></div>
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="#hero" class="logo">
+                <span class="logo-icon">◌</span>
+                <span class="logo-text">the-iustitia</span>
+            </a>
+
+            <nav class="navbar">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#stack">Stack</a>
+                <a href="#stats">Stats</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="https://github.com/the-iustitia" class="github-btn">
+                GitHub
+                <span>→</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+
+            <div class="hero-left">
+                <span class="section-label">Developer</span>
+
+                <h1 class="hero-title">
+                    Building <br />
+                    software. <br />
+                    <span>Breaking</span> <br />
+                    <span>limits.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I build systems, explore low-level abstractions
+                    and turn ideas into real-world solutions.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="primary-btn">
+                        View my work
+                        <span>+</span>
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="https://github.com/the-iustitia">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://t.me/the_cyber_knight">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/kuchma-ilya-0b37bb415">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:python17js@gmail.com">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-center">
+                <div class="hero-artwork">
+                    <img src="./images/memento_mori.png" alt="Statue artwork" />
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="scroll-indicator">
+                    <span>SCROLL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="stats-section">
+        <div class="stats-intro">
+            <span class="section-tag">
+                DEVELOPER METRICS
+            </span>
+            <h2>
+                Numbers behind the code.
+            </h2>
+            <p>
+                Every project leaves a trace. Every line tells a story.
+            </p>
+        </div>
+        <div class="stats-slider">
+            <button class="nav prev">←</button>
+            <div class="slides">
+                <div class="slide active">
+                    <div class="stat-number" data-target="27">0</div>
+                    <div class="stat-title">
+                        Completed Projects
+                    </div>
+                    <svg viewBox="0 0 1000 250" class="graph">
+                        <path
+                            class="graph-line"
+                            d="M0 210 C150 130,250 190,400 100 C600 20,700 200,850 70 C900 40,950 50,1000 20" />
+                    </svg>
+                </div>
+                <div class="slide">
+                    <div class="stat-number" data-target="1480">0</div>
+                    <div class="stat-title">
+                        Development Hours
+                    </div>
+                    <svg viewBox="0 0 1000 250" class="graph">
+                        <path
+                            class="graph-line"
+                            d="M0 220 C200 170,250 80,420 110 C620 150,700 40,900 70 C950 90,980 40,1000 20" />
+                    </svg>
+                </div>
+                <div class="slide">
+                    <div class="stat-number" data-target="217">0</div>
+                    <div class="stat-suffix">K</div>
+                    <div class="stat-title">
+                        Lines Of Code
+                    </div>
+                    <svg viewBox="0 0 1000 250" class="graph">
+                        <path
+                            class="graph-line"
+                            d="M0 180 C200 50,300 210,500 40 C700 10,850 140,1000 30" />
+                    </svg>
+                </div>
+                <div class="slide">
+                    <div class="stat-number" data-target="42">0</div>
+                    <div class="stat-title">
+                        Repositories
+                    </div>
+                    <svg viewBox="0 0 1000 250" class="graph">
+                        <path
+                            class="graph-line"
+                            d="M0 210 C140 180,250 80,400 140 C550 200,650 20,850 50 C950 70,980 50,1000 20" />
+                    </svg>
+                </div>
+            </div>
+            <button class="nav next">→</button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-heading">
+                <span class="section-label">About me</span>
+                <h2>
+                    I’m a developer <br />
+                    who loves <span>systems,</span><br />
+                    <span>performance</span> and <br />
+                    <span>clean code.</span>
+                </h2>
+            </div>
+            <div class="about-content">
+                <p>
+                    I enjoy building things that live
+                    close to the metal — from backend
+                    services to experimental tools.
+                    Always learning, always shipping.
+                </p>
+                <a href="#skills" class="text-link">
+                    More about me
+                    <span>→</span>
+                </a>
+            </div>
+            <div class="about-visual">
+                <div class="visual-card">
+                    <img src="./images/golden_ceramic.png" alt="Abstract visual" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="stack-grid" id="skills">
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-html5-plain"></i>
+        </div>
+        <span>HTML</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-css3-plain"></i>
+        </div>
+        <span>CSS</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-javascript-plain"></i>
+        </div>
+        <span>JavaScript</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-python-plain"></i>
+        </div>
+        <span>Python</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-ruby-plain"></i>
+        </div>
+        <span>Ruby</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-linux-plain"></i>
+        </div>
+        <span>Linux</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-bash-plain"></i>
+        </div>
+        <span>Bash</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-git-plain"></i>
+        </div>
+        <span>Git</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="fa-brands fa-figma"></i>
+        </div>
+        <span>Figma</span>
+    </div>
+
+    <div class="stack-item">
+        <div class="stack-icon">
+            <i class="devicon-bootstrap-plain"></i>
+        </div>
+        <span>Bootstrap</span>
+    </div>
+
+</div>
+
+    <section class="projects" id="projects">
+        <div class="container">
+
+            <div class="section-topbar">
+                <span class="section-label">Featured Projects</span>
+
+                <a href="#projects" class="text-link">
+                    View all projects
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="projects-grid" id="projects">
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./images/mountain_future.png" alt="VOIDFS" />
+                    </div>
+
+                    <div class="project-content">
+                        <h3>ATOM</h3>
+
+                        <p>
+                            A experimental filesystem
+                            written in Ruby with the most advanced algorithms
+                        </p>
+
+                        <a href="https://github.com/the-iustitia/Atom" class="project-link">→</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./images/tounel_future.png" alt="ATOM" />
+                    </div>
+
+                    <div class="project-content">
+                        <h3>BDB</h3>
+
+                        <p>
+                            Bee Discord Bot - a bot that performs a huge number of tasks in a matter of seconds
+                        </p>
+
+                        <a href="https://github.com/the-iustitia/Bee-Discord-Bot" class="project-link">→</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./images/future_project.png" alt="EQUINOX" />
+                    </div>
+
+                    <div class="project-content">
+                        <h3>TERMON</h3>
+
+                        <p>
+                            TERMON — Windows CLI system monitor in C (WinAPI) with processes, CPU/RAM and NASM module support.
+                        </p>
+
+                        <a href="https://github.com/the-iustitia/termon" class="project-link">→</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="stats" id="stats">
+        <div class="container">
+            <span class="section-label">GitHub Stats</span>
+
+            <div class="stats-card">
+
+                <div class="stats-profile">
+                    <div class="profile-avatar">
+                        <img src="./images/logo.jfif" alt="Avatar" />
+                    </div>
+
+                    <div class="profile-meta">
+                        <h4>the-iustitia</h4>
+                        <span>Joined Jun 2022</span>
+                    </div>
+                </div>
+
+                <div class="stats-numbers">
+
+                    <div class="stat-item">
+                        <h3>6</h3>
+                        <span>Repositories</span>
+                    </div>
+
+                    <div class="stat-item">
+                        <h3>112</h3>
+                        <span>Contributions</span>
+                    </div>
+
+                    <div class="stat-item">
+                        <h3>12</h3>
+                        <span>Projects</span>
+                    </div>
+
+                    <div class="stat-item">
+                        <h3>3</h3>
+                        <span>Years</span>
+                    </div>
+
+                </div>
+
+                <div class="contributions-grid">
+                    <span class="grid-title">Contributions (last 12 months)</span>
+
+                    <div class="github-grid">
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+
+            <div class="contact-heading">
+                <span class="section-label">Let's connect</span>
+
+                <h2>
+                    Got an idea or <br />
+                    want to build <br />
+                    something <span>together?</span>
+                </h2>
+            </div>
+
+            <div class="contact-content">
+                <p>
+                    I’m always open to interesting
+                    projects and collaborations.
+                </p>
+
+                <a href="#" class="text-link">
+                    Get in touch
+                    <span>→</span>
+                </a>
+            </div>
+
+            <div class="contact-visual">
+                <div class="visual-card">
+                    <img src="./images/gold_and_stone.png" alt="Abstract rock" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <a href="#" class="logo footer-logo">
+                <span class="logo-icon">◌</span>
+                <span class="logo-text">the-iustitia</span>
+            </a>
+
+            <p class="copyright">
+                © 2024 the-iustitia. All rights reserved.
+            </p>
+            
+            <a href="#top" class="back-to-top">
+                Back to top
+                <span>↑</span>
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
